@@ -1,3 +1,7 @@
+Alejandra Ferrer's company website. Design by Alejandra Ferrer.
+December 2021. 
+[`Desktop design`] (https://www.figma.com/proto/S1Sm0aJkObt15U6aPv2Qg9/Alejandra-Ferrer?node-id=2%3A3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=155%3A748)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
