@@ -26,51 +26,51 @@ export default function Navbar() {
                 </div>
                 <div className="flex">
                   <div className="hidden lg:flex lg:space-x-8">
-                    <div className="group flex flex-col text-gray-900 hover:text-coral hover:drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
+                    <div className="group flex flex-col text-gray-900 hover:text-coral-200">
                       <a
                         href="#"
                         className="inline-flex items-center px-1 pt-1 text-xs"
                       >
                         ABOUT
                       </a>
-                      <div className="hidden group-hover:block text-center text-3xl leading-min hover:text-coral">·</div>
+                      <div className="hidden group-hover:block text-center text-3xl leading-min hover:text-coral-200 cursor-pointer">·</div>
                     </div>
 
-                    <div className="group flex flex-col text-gray-900 hover:text-coral hover:drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
+                    <div className="group flex flex-col text-gray-900 hover:text-coral-200">
                       <a
                         href="#"
                         className="inline-flex items-center px-1 pt-1 text-xs"
                       >
                         SERVICES
                       </a>
-                      <div className="hidden group-hover:block text-center text-3xl leading-min hover:text-coral">·</div>
+                      <div className="hidden group-hover:block text-center text-3xl leading-min hover:text-coral cursor-pointer">·</div>
                     </div>
-                    <div className="group flex flex-col text-gray-900 hover:text-coral hover:drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
+                    <div className="group flex flex-col text-gray-900 hover:text-coral-200">
                       <a
                         href="#"
                         className="inline-flex items-center px-1 pt-1 text-xs"
                       >
                         PORTFOLIO
                       </a>
-                      <div className="hidden group-hover:block text-center text-3xl leading-min hover:text-coral">·</div>
+                      <div className="hidden group-hover:block text-center text-3xl leading-min hover:text-coral cursor-pointer">·</div>
                     </div>
-                    <div className="group flex flex-col text-gray-900 hover:text-coral hover:drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
+                    <div className="group flex flex-col text-gray-900 hover:text-coral-200">
                       <a
                         href="#"
                         className="inline-flex items-center px-1 pt-1 text-xs"
                       >
                         CLIENTS
                       </a>
-                      <div className="hidden group-hover:block text-center text-3xl leading-min hover:text-coral">·</div>
+                      <div className="hidden group-hover:block text-center text-3xl leading-min hover:text-coral cursor-pointer">·</div>
                     </div>
-                    <div className="group flex flex-col text-gray-900 hover:text-coral hover:drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
+                    <div className="group flex flex-col text-gray-900 hover:text-coral-200">
                       <a
                         href="#"
                         className="inline-flex items-center px-1 pt-1 text-xs"
                       >
                         CONTACT
                       </a>
-                      <div className="hidden group-hover:block text-center text-3xl leading-min hover:text-coral">·</div>
+                      <div className="hidden group-hover:block text-center text-3xl leading-min hover:text-coral-200 cursor-pointer">·</div>
                     </div>
                   </div>
                 </div>

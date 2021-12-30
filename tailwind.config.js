@@ -22,7 +22,8 @@ module.exports = {
       "7xl": "5rem",
     },
     colors: {
-      coral: "#C06937",
+      'coral-600': "#C06937",
+      'coral-200': "#F1B398"
     },
     extend: {
       lineHeight: {
