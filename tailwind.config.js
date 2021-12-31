@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     fontFamily: {
       montserrat: ["Montserrat"],
+      abril: ["Abril Fatface"],
     },
     fontSize: {
       xs: ".80rem",
@@ -23,7 +24,8 @@ module.exports = {
     },
     colors: {
       'coral-600': "#C06937",
-      'coral-200': "#F1B398"
+      'coral-200': "#F1B398",
+      'sand-100': "#F5F1EB"
     },
     extend: {
       lineHeight: {

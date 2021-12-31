@@ -1,6 +1,4 @@
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { SearchIcon } from "@heroicons/react/solid";
+import { Disclosure } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 
 function classNames(...classes) {
@@ -9,16 +7,16 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-white shadow">
+    <Disclosure as="nav" className="bg-white">
       {({ open }) => (
         <>
           <div className="font-montserrat">
-            <div className="flex justify-center pb-4 h-32">
+            <div className="flex justify-center h-28">
               <div>
-                <div className="flex-1 flex items-center justify-center m-4">
+                <div className="flex-1 flex items-center justify-center mt-5 mb-3">
                   <div className="flex-shrink-0 flex items-center">
                     <img
-                      className="lg:block h-12 w-auto"
+                      className="lg:block h-11 w-auto"
                       src="./logo_AFDC.png"
                       alt="Alejandra Ferrer Design Consultant"
                     />
