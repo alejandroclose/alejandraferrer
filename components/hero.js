@@ -13,36 +13,33 @@ viewBox="0 0 640 784"
 
 export default function Hero() {
   return (
-    <div className="font-montserrat relative bg-sand-100 overflow-hidden">
-      <div
-        className="hidden lg:block lg:absolute lg:inset-0"
-        aria-hidden="true"
+    <div className="overflow-visible">
+    <div className="font-montserrat relative bg-sand-100">
+            <div
+        className="lg:block lg:absolute lg:inset-0 w-2/5 bg-[url('/images/floral-hero.png')] bg-cover"
       ></div>
-      <div className="relative pt-6 pb-16 sm:pb-24 lg:pb-32">
-        <main className="mt-16 px-4 sm:mt-24 sm:px-6">
+      <div className="relative pt-6 pb-16">
+        <main className="mt-16 px-4 sm:px-6">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
-              {/* <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
-                <button
-                  type="button"
-                  className="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                >
-                  <span className="sr-only">Watch our video to learn more</span>
+              <div className="relative mx-auto lg:top-48 lg:left-28">
                   <img
-                    className="w-full"
-                    src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                    className=""
+                    src="/images/hero-model2.png"
                     alt=""
                   />
-                  <div
-                    className="absolute inset-0 w-full h-full flex items-center justify-center"
-                    aria-hidden="true"
-                  ></div>
-                </button>
-              </div> */}
+              </div>
+              <div className="relative mx-auto lg:left-16">
+                  <img
+                    className=""
+                    src="/images/hero-model1.png"
+                    alt=""
+                  />
+              </div>
             </div>
             <div className="sm:text-center md:mx-auto lg:col-span-6 lg:text-left">
               <h1>
-                <div className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-3xl w-3/6">
+                <div className="mt-1 block text-2xl tracking-tight font-extrabold w-4/6 ml-8">
                   <span className="block font-abril text-gray-900 font-normal">
                     Fashion & Graphic Design
                   </span>
@@ -51,12 +48,12 @@ export default function Hero() {
                   </span>
                 </div>
               </h1>
-              <div className="mt-3 ml-16 text-base text-gray-500 sm:mt-5 w-3/6">
+              <div className="mt-3 ml-24 text-sm text-gray-500 sm:mt-5 w-5/12">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
                 lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
                 fugiat aliqua ad ad non deserunt sunt.
               </div>
-              <div className="mt-3 ml-16 text-base text-gray-500 sm:mt-5">
+              <div className="mt-3 ml-24 text-base text-gray-500 sm:mt-5">
                 <div className="mt-10 flex flex-row">
                   <span className="mr-3">
                     <img src="/location.png"></img>
@@ -69,5 +66,6 @@ export default function Hero() {
         </main>
       </div>
     </div>
+  </div>
   );
 }
