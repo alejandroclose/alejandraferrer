@@ -25,7 +25,8 @@ module.exports = {
     colors: {
       'coral-600': "#C06937",
       'coral-200': "#F1B398",
-      'sand-100': "#F5F1EB"
+      'sand-100': "#F5F1EB",
+      'sand-500': "#E7CBA2"
     },
     extend: {
       lineHeight: {

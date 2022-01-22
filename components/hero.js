@@ -1,16 +1,3 @@
-{
-  /* <svg
-className="absolute top-0 right-1/2 transform translate-x-64 -translate-y-8"
-width={640}
-height={784}
-fill="none"
-viewBox="0 0 640 784"
->
-<rect y={72} width={640} height={640} className="text-gray-50" fill="red" />
-<rect x={118} width={404} height={784} fill="url(#9ebea6f4-a1f5-4d96-8c4e-4c2abf658047)" />
-</svg> */
-}
-
 export default function Hero() {
   return (
     <div className="overflow-visible">

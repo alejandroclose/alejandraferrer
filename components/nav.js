@@ -36,7 +36,7 @@ export default function Navbar() {
 
                     <div className="group flex flex-col text-gray-900 hover:text-coral-200">
                       <a
-                        href="#"
+                        href="#services"
                         className="inline-flex items-center px-1 pt-1 text-xs"
                       >
                         SERVICES
